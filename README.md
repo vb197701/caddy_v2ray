@@ -1,5 +1,5 @@
 # 2024.5.1 更新：
-Dockerfile修改为多架构(amd/arm)，感谢原作者！
+Dockerfile 修改为多架构(amd/arm)，感谢原作者！
 
 # Caddy V2ray SSL TSL Websocket 整合镜像
 
