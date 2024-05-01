@@ -1,3 +1,5 @@
+# 2024.5.1  Dockerfile修改为多架构(amd/arm)，感谢原作者！
+
 # Caddy V2ray SSL TSL Websocket 整合镜像
 
 [![Build Docker Images](https://github.com/anerg2046/Caddy_V2ray/actions/workflows/workflow.yaml/badge.svg)](https://github.com/anerg2046/Caddy_V2ray/actions/workflows/workflow.yaml)
