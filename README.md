@@ -32,7 +32,7 @@ docker run -d \
   --env=EMAIL=r.anerg@gmail.com \
   --restart=always \
   --name=caddy_v2ray \
-  anerg/v2ray:latest
+  dzluck/caddy_v2ray:latest
 ```
 
 > 开放`80`端口是因为zerossl在发证书的时候需要先访问80端口
@@ -81,7 +81,7 @@ docker run -d \
   --restart=always \
   --name=caddy_v2ray \
   --net=work-net \
-  anerg/v2ray:latest
+  dzluck/caddy_v2ray:latest
 ```
 
 这里的`/data/conf/v2ray`和`/data/conf/caddy`你可以自定义，如果报错，就手动创建这俩目录
@@ -101,7 +101,7 @@ networks:
 
 services:
   caddy_v2ray:
-    image: anerg/v2ray
+    image: dzluck/caddy_v2ray
     container_name: caddy_v2ray
     restart: always
     volumes:
